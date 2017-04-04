@@ -48,10 +48,6 @@ ActiveRecord::Schema.define(version: 20170403194550) do
     t.string   "name"
     t.datetime "created_at",                             null: false
     t.datetime "updated_at",                             null: false
-    t.string   "picture_file_name"
-    t.string   "picture_content_type"
-    t.integer  "picture_file_size"
-    t.datetime "picture_updated_at"
     t.string   "avatar_file_name"
     t.string   "avatar_content_type"
     t.integer  "avatar_file_size"

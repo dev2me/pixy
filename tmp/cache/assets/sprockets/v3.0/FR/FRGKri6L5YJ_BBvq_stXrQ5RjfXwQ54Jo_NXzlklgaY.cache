@@ -1,0 +1,7 @@
+I"m(function() {
+  setTimeout((function() {
+    $('#notice').fadeOut('fast');
+  }), 2000);
+
+}).call(this);
+:ET

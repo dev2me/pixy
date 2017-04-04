@@ -6,3 +6,21 @@
 body {
     margin: 0px;
 }
+.navbar-default {
+    background-color: #226580!important;
+    border-radius: 0px!important;
+    border: 0px;
+    .navbar-brand {
+        color: #f7f7f7;
+    }
+    .navbar-nav {
+        li {
+            a{
+                color: #f7f7f7;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
